@@ -14,7 +14,6 @@ function addItem(item) {
         cart.push(item);
         localStorage.setItem("cart", JSON.stringify(cart));
     }
-
 // Create a function called removeItem that takes an item id as a parameter, retrieves the cart from localStorage, removes the item with the given id from the cart, and then stores the updated cart back into localStorage.
 function removeItem(itemId) {
     let cart = JSON.parse(localStorage.getItem("cart"));
@@ -27,7 +26,6 @@ function displayCart() {
     let cart = JSON.parse(localStorage.getItem("cart"));
     console.log(cart);
 };
-
 // Create event listeners for the add item form and display cart button to call the respective functions.
 const addItemEL = document.getElementById("addItemForm");
 addItemEL.addEventListener("submit", function(event) {
