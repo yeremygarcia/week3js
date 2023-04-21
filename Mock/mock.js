@@ -1,7 +1,7 @@
  // Create an array of user objects called users. Each user object should have an id, name, and email property.
 const users = [
     { id: 1, name: "Jim", email: "jim@gmail.com" },
-    { id: 2, name: "Bob2", email: "bob@gmail.com" },
+    { id: 2, name: "Bob", email: "bob@gmail.com" },
     { id: 3, name: "Joe", email: "joe@gmail.com" }
   ];
   
